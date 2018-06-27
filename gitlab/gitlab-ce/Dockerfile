@@ -1,6 +1,4 @@
-FROM gitlab/gitlab-ce:latest:latest
+FROM gitlab/gitlab-ce:latest
 
 ARG TZ="Asia/Shanghai"
-
-
 ENV TZ ${TZ}
