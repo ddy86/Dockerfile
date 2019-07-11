@@ -16,4 +16,4 @@ RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak \
 
 COPY delete.sh /delete.sh
 
-CMD ["sh", "/delete.sh"]
+CMD ["/bin/bash", "/delete.sh"]
