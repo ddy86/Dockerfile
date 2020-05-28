@@ -1,6 +1,6 @@
 FROM debian
 
-MAINTAINER "change elastic index id --> logs_*"
+MAINTAINER "set reserve days param in ENV params"
 
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak \
 && echo "deb http://mirrors.aliyun.com/debian/ stretch main non-free contrib" >> /etc/apt/sources.list \
