@@ -10,4 +10,4 @@ RUN echo "deb http://mirrors.aliyun.com/debian/ stretch main non-free contrib" >
     && echo "deb http://mirrors.aliyun.com/debian/ stretch-backports main non-free contrib" >> /etc/apt/sources.list \
     && echo "deb-src http://mirrors.aliyun.com/debian/ stretch-backports main non-free contrib" >> /etc/apt/sources.list \
     && apt-get update \
-    && apt-get install telnet dnsutils -y
+    && apt-get install telnet dnsutils netcat curl -y
