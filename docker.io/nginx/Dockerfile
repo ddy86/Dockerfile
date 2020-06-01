@@ -1,4 +1,4 @@
-FROM nginx:1.15.12
+FROM nginx:1.17.10
 ARG TZ="Asia/Shanghai"
 ENV TZ ${TZ}
 RUN echo "deb http://mirrors.aliyun.com/debian/ stretch main non-free contrib" > /etc/apt/sources.list \
