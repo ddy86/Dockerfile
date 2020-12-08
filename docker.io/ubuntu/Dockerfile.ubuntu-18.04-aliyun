@@ -1,0 +1,7 @@
+FROM ubuntu:18.04
+
+ENV TZ="Asia/Shanghai"
+
+COPY sources.list /etc/apt/sources.list
+
+RUN apt-get update
